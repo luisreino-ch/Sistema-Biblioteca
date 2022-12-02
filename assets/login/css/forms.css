@@ -1,0 +1,98 @@
+body{
+    height: 725px;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-image: url('../../../iconos/2.png');
+    /*background:linear-gradient(30deg, #601fd1, #a98fd5,#8b6bc7, #cdbbef, #8892d1, #9FA8DA);*/
+    background-size: cover;
+  }
+  
+
+  .tablaUsuario{
+    background-color: aliceblue;
+  }
+  
+  #medi{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+   
+  
+  }
+  #otr{
+   
+    display: flex;
+    justify-content: center;
+  }
+  
+  a, a:visited {
+      color: white;
+      text-decoration: none;
+      display: block;
+      width: 100px;
+  }
+  
+  
+  
+    @import url(https://fonts.googleapis.com/css?family=Erica+One);
+  /* BODY */
+  
+  ::selection {
+    background: transparent;
+  }
+  
+  h1 {
+    cursor: default;
+  
+    top: 3px;
+    -webkit-animation: bounce .4s ease infinite alternate;
+    
+    font-family: Brush Script MT;
+    font-size: 80px;
+    color: #7146fd;
+    text-align: center;
+    line-height: 100px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .6);
+  }
+  /* ANIMATION */
+  /*
+  @-webkit-keyframes bounce {
+    100% {   
+      text-shadow: 0 1px 0 #CCC,
+                   0 2px 0 #CCC,
+                   0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 5px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 7px 0 #CCC,
+                   0 8px 0 #CCC,
+                   0 9px 0 #CCC,
+                   0 30px 30px rgba(0, 0, 0, .3);
+    }
+  }*/
+  
+  .tuclase {
+    text-align: left; 
+    font-family: Candara Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #7146fd; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    }
+ 
+     

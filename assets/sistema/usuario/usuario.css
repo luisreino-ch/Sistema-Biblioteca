@@ -1,0 +1,16 @@
+header{
+    background:#3f8de6;
+}
+
+
+table.dataTable thead {
+    background: #6a00ff;
+    color:white;
+  }
+  
+.caja{
+    /* border: 1px solid; */
+    padding: 5px;
+    box-shadow: 10px 10px 50px 1px #7c7c81;
+    border-radius: 10px;
+}
